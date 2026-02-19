@@ -1,0 +1,3 @@
+pip
+httpx
+python-dotenv

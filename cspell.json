@@ -41,6 +41,7 @@
         "kwargs",
         "lstrip",
         "maxsize",
+        "MCP",
         "mkdocs",
         "mnda",
         "mypy",

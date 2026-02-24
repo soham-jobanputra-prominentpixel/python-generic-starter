@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "name": "sync-docs",
+  "description": "This hook is used to synchronize project documentation. This hook is invoked after a spec task is completed. This ensures that project documentation stays up-to date with changing source code.",
+  "when": {
+    "type": "postTaskExecution"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Update the documentation according to source changes done in your last task execution. Don't change any other parts of documentation. Focus only on docs related to the spec task you just performed."
+  }
+}

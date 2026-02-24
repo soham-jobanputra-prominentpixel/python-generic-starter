@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "name": "use-context7",
+  "description": "This hook explicitly instructs about using context7 MCP.",
+  "when": {
+    "type": "promptSubmit"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Always use Context7 MCP when I need library/API documentation, code generation, setup or configuration steps.\n"
+  }
+}

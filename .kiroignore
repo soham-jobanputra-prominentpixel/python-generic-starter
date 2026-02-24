@@ -1,0 +1,6 @@
+.vscode
+.flake8
+.coveragerc.toml
+.pre-commit-config.yaml
+cspell.json
+notes.txt
